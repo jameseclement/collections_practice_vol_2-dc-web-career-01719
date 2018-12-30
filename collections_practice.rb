@@ -51,6 +51,9 @@ def merge_data(keys, data)
 end
 
 def find_cool(search)
+  search.each {|person|
+  
   binding.pry
+  }
 end
   
