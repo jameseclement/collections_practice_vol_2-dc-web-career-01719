@@ -36,3 +36,18 @@ def count_elements(array)
   end }
   output
 end
+
+
+def merge_data(keys, data)
+  keys.each {|x|
+
+  person = x[:first_name]
+  
+  traits = data[0][person]
+  traits.each {|trait, value|
+  x[trait]=value
+    }
+    }
+end
+  
+  
