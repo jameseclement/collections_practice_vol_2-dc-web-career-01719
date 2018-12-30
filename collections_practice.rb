@@ -50,5 +50,7 @@ def merge_data(keys, data)
     }
 end
 
-def find_cool()
+def find_cool(search)
+  binding.pry
+end
   
